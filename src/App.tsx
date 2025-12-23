@@ -11,7 +11,7 @@ const projects = [
     name: "Todo App Microservices (Docker)",
     desc: "Todo app en microservices avec backend, base PostgreSQL et frontend, orchestrée via Docker Compose.",
     stack: ["Docker", "Docker Compose", "FastAPI", "PostgreSQL", "Nginx"],
-    links: [{ label: "GitHub", href: "https://github.com/TON-USERNAME/TON-REPO" }],
+    links: [{ label: "GitHub", href: "https://github.com/chahdbsd/portfolio" }],
   },
   {
     name: "API Boutique (CRUD Products)",
@@ -43,12 +43,8 @@ export default function App() {
       <main className="container">
         <section className="hero">
           <p className="badge">Recherche de stage</p>
-          <h1>Chahd — Étudiante en informatique</h1>
-          <p className="subtitle">
-            Passionnée par le développement web et les projets techniques (API, Docker, réseaux).
-            Je cherche un stage orienté <b>développement / full-stack</b>.
-          </p>
-          <div className="buttons">
+          <h1>Chahd Bouassida— Étudiante en ingénierie informatique</h1>
+            <div className="buttons">
             <a className="btn primary" href="#projects">Voir mes projets</a>
             <a className="btn" href="#contact">Me contacter</a>
           </div>
@@ -57,9 +53,9 @@ export default function App() {
         <section id="about" className="section">
           <h2>À propos</h2>
           <p>
-            Je suis étudiante en informatique. J’aime construire des projets concrets (API, applications web,
-            microservices) et comprendre l’infrastructure derrière (Docker, réseaux). Mon objectif est de rejoindre
-            une équipe où je peux progresser et livrer des fonctionnalités utiles.
+             Étudiante en 4ᵉ année de génie informatique à l'ESIEA, je recherche un
+	stage de 4 à 6 mois en <b>développement logiciel / full-stack</b> à
+	partir d’avril 2026, afin de contribuer à des projets concrets au 	sein d’une équipe dynamique.
           </p>
         </section>
 
@@ -102,9 +98,9 @@ export default function App() {
         <section id="contact" className="section">
           <h2>Contact</h2>
           <div className="card">
-            <p><b>Email :</b> tonemail@gmail.com</p>
-            <p><b>GitHub :</b> <a href="https://github.com/TON-USERNAME" target="_blank" rel="noreferrer">github.com/TON-USERNAME</a></p>
-            <p><b>LinkedIn :</b> <a href="https://linkedin.com/in/TON-PROFIL" target="_blank" rel="noreferrer">linkedin.com/in/TON-PROFIL</a></p>
+            <p><b>Email :</b> chahd.bouassida@et.esiea.fr</p>
+            <p><b>GitHub :</b> <a href="https://github.com/chahdbsd" target="_blank" rel="noreferrer">github.com/chahdbsd</a></p>
+            <p><b>LinkedIn :</b> <a href="https://www.linkedin.com/in/chahd-bouassida-6b541b264/" target="_blank" rel="noreferrer">linkedin.com/in/Chahd-Bouassida</a></p>
           </div>
         </section>
 
